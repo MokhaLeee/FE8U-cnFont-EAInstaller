@@ -1,0 +1,20 @@
+
+ALIGN 4
+Fonts(0x0053,0x000B)
+#incbin "FontItem卒.font.gba"
+
+ALIGN 4
+Fonts(0x005F,0x0009)
+#incbin "FontItem归.font.gba"
+
+ALIGN 4
+Fonts(0x0083,0x0009)
+#incbin "FontItem荒.font.gba"
+
+ALIGN 4
+Fonts(0x0091,0x0009)
+#incbin "FontItem酒.font.gba"
+
+ALIGN 4
+Fonts(0x0097,0x0009)
+#incbin "FontItem青.font.gba"

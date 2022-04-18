@@ -1,0 +1,28 @@
+
+ALIGN 4
+Fonts(0x004E,0x000D)
+#incbin "FontText乱.font.gba"
+
+ALIGN 4
+Fonts(0x0051,0x000D)
+#incbin "FontText共.font.gba"
+
+ALIGN 4
+Fonts(0x0053,0x000D)
+#incbin "FontText危.font.gba"
+
+ALIGN 4
+Fonts(0x005C,0x000C)
+#incbin "FontText山.font.gba"
+
+ALIGN 4
+Fonts(0x005F,0x000D)
+#incbin "FontText影.font.gba"
+
+ALIGN 4
+Fonts(0x0099,0x000D)
+#incbin "FontText饱.font.gba"
+
+ALIGN 4
+Fonts(0x009A,0x000D)
+#incbin "FontText驱.font.gba"

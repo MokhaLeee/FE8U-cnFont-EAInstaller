@@ -1,0 +1,68 @@
+
+ALIGN 4
+Fonts(0x004F,0x000D)
+#incbin "FontText伟.font.gba"
+
+ALIGN 4
+Fonts(0x0050,0x000D)
+#incbin "FontText借.font.gba"
+
+ALIGN 4
+Fonts(0x0054,0x000D)
+#incbin "FontText吟.font.gba"
+
+ALIGN 4
+Fonts(0x0057,0x000D)
+#incbin "FontText土.font.gba"
+
+ALIGN 4
+Fonts(0x0059,0x000D)
+#incbin "FontText够.font.gba"
+
+ALIGN 4
+Fonts(0x005F,0x000C)
+#incbin "FontText弟.font.gba"
+
+ALIGN 4
+Fonts(0x0061,0x000D)
+#incbin "FontText感.font.gba"
+
+ALIGN 4
+Fonts(0x0062,0x000D)
+#incbin "FontText戟.font.gba"
+
+ALIGN 4
+Fonts(0x0066,0x000D)
+#incbin "FontText星.font.gba"
+
+ALIGN 4
+Fonts(0x0067,0x000D)
+#incbin "FontText期.font.gba"
+
+ALIGN 4
+Fonts(0x0075,0x000D)
+#incbin "FontText生.font.gba"
+
+ALIGN 4
+Fonts(0x0077,0x000D)
+#incbin "FontText真.font.gba"
+
+ALIGN 4
+Fonts(0x008D,0x000D)
+#incbin "FontText负.font.gba"
+
+ALIGN 4
+Fonts(0x0090,0x000D)
+#incbin "FontText速.font.gba"
+
+ALIGN 4
+Fonts(0x0096,0x000D)
+#incbin "FontText队.font.gba"
+
+ALIGN 4
+Fonts(0x009E,0x000C)
+#incbin "FontText鸟.font.gba"
+
+ALIGN 4
+Fonts(0x00FF,0x000C)
+#incbin "FontText？.font.gba"
