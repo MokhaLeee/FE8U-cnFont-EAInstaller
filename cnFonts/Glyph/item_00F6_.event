@@ -1,0 +1,36 @@
+
+ALIGN 4
+Fonts(0x004E,0x0009)
+#incbin "FontItem件.font.gba"
+
+ALIGN 4
+Fonts(0x0051,0x000B)
+#incbin "FontItem凶.font.gba"
+
+ALIGN 4
+Fonts(0x0053,0x000B)
+#incbin "FontItem叶.font.gba"
+
+ALIGN 4
+Fonts(0x005E,0x0009)
+#incbin "FontItem延.font.gba"
+
+ALIGN 4
+Fonts(0x0060,0x000B)
+#incbin "FontItem惶.font.gba"
+
+ALIGN 4
+Fonts(0x0065,0x0009)
+#incbin "FontItem时.font.gba"
+
+ALIGN 4
+Fonts(0x0077,0x000B)
+#incbin "FontItem矶.font.gba"
+
+ALIGN 4
+Fonts(0x0094,0x0009)
+#incbin "FontItem银.font.gba"
+
+ALIGN 4
+Fonts(0x0096,0x000B)
+#incbin "FontItem零.font.gba"

@@ -1,0 +1,40 @@
+
+ALIGN 4
+Fonts(0x004F,0x000D)
+#incbin "FontText依.font.gba"
+
+ALIGN 4
+Fonts(0x0052,0x000D)
+#incbin "FontText劝.font.gba"
+
+ALIGN 4
+Fonts(0x0054,0x000D)
+#incbin "FontText咝.font.gba"
+
+ALIGN 4
+Fonts(0x0055,0x000D)
+#incbin "FontText喝.font.gba"
+
+ALIGN 4
+Fonts(0x005B,0x000C)
+#incbin "FontText宝.font.gba"
+
+ALIGN 4
+Fonts(0x0067,0x000D)
+#incbin "FontText枝.font.gba"
+
+ALIGN 4
+Fonts(0x007A,0x000D)
+#incbin "FontText窝.font.gba"
+
+ALIGN 4
+Fonts(0x0081,0x000D)
+#incbin "FontText膝.font.gba"
+
+ALIGN 4
+Fonts(0x0094,0x000D)
+#incbin "FontText钝.font.gba"
+
+ALIGN 4
+Fonts(0x0098,0x000D)
+#incbin "FontText额.font.gba"

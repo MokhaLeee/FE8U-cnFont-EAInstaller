@@ -1,0 +1,32 @@
+
+ALIGN 4
+Fonts(0x004F,0x0009)
+#incbin "FontItem佛.font.gba"
+
+ALIGN 4
+Fonts(0x0057,0x000B)
+#incbin "FontItem坛.font.gba"
+
+ALIGN 4
+Fonts(0x0062,0x000B)
+#incbin "FontItem扛.font.gba"
+
+ALIGN 4
+Fonts(0x006E,0x0009)
+#incbin "FontItem湛.font.gba"
+
+ALIGN 4
+Fonts(0x0072,0x000B)
+#incbin "FontItem牛.font.gba"
+
+ALIGN 4
+Fonts(0x0077,0x000B)
+#incbin "FontItem睛.font.gba"
+
+ALIGN 4
+Fonts(0x008D,0x000B)
+#incbin "FontItem赛.font.gba"
+
+ALIGN 4
+Fonts(0x0096,0x000B)
+#incbin "FontItem陛.font.gba"

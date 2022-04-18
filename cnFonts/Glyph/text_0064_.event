@@ -1,0 +1,20 @@
+
+ALIGN 4
+Fonts(0x005B,0x000D)
+#incbin "FontText孤.font.gba"
+
+ALIGN 4
+Fonts(0x006B,0x000D)
+#incbin "FontText此.font.gba"
+
+ALIGN 4
+Fonts(0x006C,0x000D)
+#incbin "FontText汤.font.gba"
+
+ALIGN 4
+Fonts(0x008D,0x000D)
+#incbin "FontText赤.font.gba"
+
+ALIGN 4
+Fonts(0x0096,0x000D)
+#incbin "FontText除.font.gba"

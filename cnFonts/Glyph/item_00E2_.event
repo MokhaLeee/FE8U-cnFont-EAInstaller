@@ -1,0 +1,20 @@
+
+ALIGN 4
+Fonts(0x0056,0x0008)
+#incbin "FontItem团.font.gba"
+
+ALIGN 4
+Fonts(0x005D,0x000B)
+#incbin "FontItem巢.font.gba"
+
+ALIGN 4
+Fonts(0x0065,0x0009)
+#incbin "FontItem既.font.gba"
+
+ALIGN 4
+Fonts(0x006C,0x0009)
+#incbin "FontItem波.font.gba"
+
+ALIGN 4
+Fonts(0x008B,0x000B)
+#incbin "FontItem询.font.gba"

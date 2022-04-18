@@ -1,0 +1,48 @@
+
+ALIGN 4
+Fonts(0x0030,0x0005)
+#incbin "FontText〃.font.gba"
+
+ALIGN 4
+Fonts(0x004E,0x000D)
+#incbin "FontText七.font.gba"
+
+ALIGN 4
+Fonts(0x0052,0x000D)
+#incbin "FontText刃.font.gba"
+
+ALIGN 4
+Fonts(0x0054,0x000D)
+#incbin "FontText吃.font.gba"
+
+ALIGN 4
+Fonts(0x005E,0x000D)
+#incbin "FontText布.font.gba"
+
+ALIGN 4
+Fonts(0x005F,0x000D)
+#incbin "FontText弃.font.gba"
+
+ALIGN 4
+Fonts(0x0074,0x000D)
+#incbin "FontText球.font.gba"
+
+ALIGN 4
+Fonts(0x0080,0x000D)
+#incbin "FontText考.font.gba"
+
+ALIGN 4
+Fonts(0x0083,0x000D)
+#incbin "FontText范.font.gba"
+
+ALIGN 4
+Fonts(0x0084,0x000D)
+#incbin "FontText萃.font.gba"
+
+ALIGN 4
+Fonts(0x008C,0x000D)
+#incbin "FontText调.font.gba"
+
+ALIGN 4
+Fonts(0x0090,0x000D)
+#incbin "FontText逃.font.gba"

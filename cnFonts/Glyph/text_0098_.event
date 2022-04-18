@@ -1,0 +1,28 @@
+
+ALIGN 4
+Fonts(0x0055,0x000D)
+#incbin "FontText喘.font.gba"
+
+ALIGN 4
+Fonts(0x005B,0x000C)
+#incbin "FontText官.font.gba"
+
+ALIGN 4
+Fonts(0x005F,0x000D)
+#incbin "FontText徘.font.gba"
+
+ALIGN 4
+Fonts(0x0062,0x000D)
+#incbin "FontText折.font.gba"
+
+ALIGN 4
+Fonts(0x0063,0x000D)
+#incbin "FontText掘.font.gba"
+
+ALIGN 4
+Fonts(0x007C,0x000D)
+#incbin "FontText粘.font.gba"
+
+ALIGN 4
+Fonts(0x0098,0x000D)
+#incbin "FontText题.font.gba"

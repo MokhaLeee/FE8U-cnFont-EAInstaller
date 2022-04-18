@@ -1,0 +1,24 @@
+
+ALIGN 4
+Fonts(0x0062,0x000B)
+#incbin "FontItem押.font.gba"
+
+ALIGN 4
+Fonts(0x0064,0x0009)
+#incbin "FontItem撼.font.gba"
+
+ALIGN 4
+Fonts(0x006C,0x000B)
+#incbin "FontItem沼.font.gba"
+
+ALIGN 4
+Fonts(0x0070,0x0009)
+#incbin "FontItem炼.font.gba"
+
+ALIGN 4
+Fonts(0x0075,0x000B)
+#incbin "FontItem疼.font.gba"
+
+ALIGN 4
+Fonts(0x0096,0x0009)
+#incbin "FontItem隼.font.gba"
