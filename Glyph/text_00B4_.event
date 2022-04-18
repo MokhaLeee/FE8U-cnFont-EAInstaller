@@ -1,8 +1,0 @@
-
-ALIGN 4
-Fonts(0x005B,0x000D)
-#incbin "FontText宴.font.gba"
-
-ALIGN 4
-Fonts(0x0066,0x000D)
-#incbin "FontText暴.font.gba"
