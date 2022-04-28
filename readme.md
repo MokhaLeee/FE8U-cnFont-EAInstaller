@@ -1,11 +1,13 @@
 # FE8U cn Font Installer
 ---
 
-一个基于[Inserting Everything Through EA](https://feuniverse.us/t/ea-wip-a-guide-to-inserting-everything-through-ea/1627) 的思想构建的，可直接使用Event Assembler对美版圣魔之光石导入汉化字库的EA补丁。
+一个基于[Inserting Everything Through EA](https://feuniverse.us/t/ea-wip-a-guide-to-inserting-everything-through-ea/1627) 的思想，采用[PyGenerator](https://github.com/MokhaLeee/PyGenerator-FE-UTF8Font-Installer.git) 构建的，可直接使用Event Assembler对美版圣魔之光石导入汉化字库的EA补丁。
 
 ## 如何使用
 烧录该补丁的方法非常简单，只需使用[Event Assembler](https://feuniverse.us/t/event-assembler/1749)， 将文件夹中的 `EAcnFontInstaller.event` 烧录进rom中即可。
 烧录完成后可以采用FEBuilderGBA自行书写中文文本，也可使用[Text-Process-cn](https://github.com/MokhaLeee/text-process-cn.git)生成EA格式的文本。
+
+自行生成字库文件的方法请参考[PyGenerator](https://github.com/MokhaLeee/PyGenerator-FE-UTF8Font-Installer.git)。
 
 ## 优势(相较FEBuilder)
 - 文本化导入，可直接通过Buildfile进行烧录，从而可以直接在EA端与SkillSys Buildfile兼容；

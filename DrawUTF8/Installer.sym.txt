@@ -1,5 +1,0 @@
-DrawUTF8Item=$B88570
-DrawUTF8Serif=$B88588
-DrawUTF8WidthChar=$B885A0
-DrawUTF8WidthString=$B885C4
-DrawUTF8Common=$B885E8
