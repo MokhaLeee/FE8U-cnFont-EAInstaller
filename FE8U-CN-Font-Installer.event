@@ -1,3 +1,6 @@
+
+PUSH
+
 #define __DEBUG__
 
 
@@ -37,3 +40,6 @@ ORG FreeSpaceFont
 #ifdef FreeSpaceFontEnd
 	ASSERT (FreeSpaceFontEnd - CURRENTOFFSET)
 #endif // FreeSpaceFontEnd
+
+POP
+
