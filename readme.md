@@ -4,7 +4,7 @@
 一个基于[Inserting Everything Through EA](https://feuniverse.us/t/ea-wip-a-guide-to-inserting-everything-through-ea/1627) 的思想，采用[PyGenerator](https://github.com/MokhaLeee/PyGenerator-FE-UTF8Font-Installer.git) 构建的，可直接使用Event Assembler对美版圣魔之光石导入汉化字库的EA补丁。
 
 ## 如何使用
-烧录该补丁的方法非常简单，只需使用[Event Assembler](https://feuniverse.us/t/event-assembler/1749)， 将文件夹中的 `EAcnFontInstaller.event` 烧录进rom中即可。
+烧录该补丁的方法非常简单，只需使用[Event Assembler](https://feuniverse.us/t/event-assembler/1749)， 将文件夹中的 `FE8U-CN-Font-Installer.event` 烧录进rom中即可。
 烧录完成后可以采用FEBuilderGBA自行书写中文文本，也可使用[Text-Process-cn](https://github.com/MokhaLeee/text-process-cn.git)生成EA格式的文本。
 
 自行生成字库文件的方法请参考[PyGenerator](https://github.com/MokhaLeee/PyGenerator-FE-UTF8Font-Installer.git)。
@@ -14,7 +14,7 @@
 - 直接占用ROM内部的空余空间，而不进行内存扩展。有效节省rom空间。
 
 ## 注意
-- **空间占用问题**：字库占用FE8U中 `0xEFB2E0 ~ 0xFE0000` 的空间，通常不会与他人改版相冲突，但是建议在烧录之前先行排查待烧录rom的这块区域是否被占用。如果已被占用，则需修改`EAcnFontInstaller.event`中`FreeSpaceFont`的数值，使之指向一块未被占用的空间。
+- **空间占用问题**：字库占用FE8U中 `0xEFB2E0 ~ 0xFE0000` 的空间，通常不会与他人改版相冲突，但是建议在烧录之前先行排查待烧录rom的这块区域是否被占用。如果已被占用，则需修改`FE8U-CN-Font-Installer.event`中`FreeSpaceFont`的数值，使之指向一块未被占用的空间。
 
 - **已有补丁**：当前补丁已内嵌`Draw-UTF8`与`Anti-Huffman`补丁，但即使待烧录rom中已有上述补丁也不会造成冲突，因而通常不必担心补丁冲突的问题；
 
