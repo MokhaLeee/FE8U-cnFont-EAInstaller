@@ -369,6 +369,9 @@ def main():
 	if len(sys.argv) < 2:
 		sys.exit("please input a gba file to make FontTable!")
 
+	if len(sys.argv) > 2:
+		MakeFontTable( sys.argv[1], table_file )
+		sys.exit("only updated TableDef!")
 	
 	# mkdir installer folder
 	if os.path.exists(installer_dir):
@@ -379,9 +382,6 @@ def main():
 	
 	# make file "FontTableDef.event"
 	MakeFontTable( sys.argv[1], table_file )
-	
-	if len(sys.argv) > 2:
-		sys.exit("only updated TableDef!")
 		
 		
 	# make file "FontInstaller.event"
