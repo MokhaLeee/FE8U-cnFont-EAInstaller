@@ -53,7 +53,7 @@ def InitInstaller(installer_dir):
 	with open(main_installer, 'w') as fp_main:
 		
 		fp_main.write("\nPUSH\n\n")
-		fp_main.write("#define __DEBUG__\n\n\n")
+		fp_main.write("// #define __DEBUG__\n\n\n")
 		
 		fp_main.write("// Start of font glyphes space\n")
 		fp_main.write("#ifndef FreeSpaceFont\n")
