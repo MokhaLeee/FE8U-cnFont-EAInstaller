@@ -16,6 +16,10 @@ Fonts(0x006C, 12)
 	#incbin "../FontData/FontText法.fefont"
 
 ALIGN 4
+Fonts(0x0071, 12)
+	#incbin "../FontData/FontText燕.fefont"
+
+ALIGN 4
 Fonts(0x0075, 12)
 	#incbin "../FontData/FontText痕.fefont"
 

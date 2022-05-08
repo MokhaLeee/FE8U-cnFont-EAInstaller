@@ -32,6 +32,10 @@ Fonts(0x0080, 9)
 	#incbin "../FontData/FontItem育.fefont"
 
 ALIGN 4
+Fonts(0x0083, 9)
+	#incbin "../FontData/FontItem莲.fefont"
+
+ALIGN 4
 Fonts(0x008B, 9)
 	#incbin "../FontData/FontItem讲.fefont"
 

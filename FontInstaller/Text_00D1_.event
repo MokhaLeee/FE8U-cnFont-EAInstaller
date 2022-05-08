@@ -32,6 +32,10 @@ Fonts(0x0079, 12)
 	#incbin "../FontData/FontText科.fefont"
 
 ALIGN 4
+Fonts(0x007E, 12)
+	#incbin "../FontData/FontText绑.fefont"
+
+ALIGN 4
 Fonts(0x008D, 12)
 	#incbin "../FontData/FontText跑.fefont"
 

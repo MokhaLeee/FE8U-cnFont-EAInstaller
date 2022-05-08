@@ -20,6 +20,10 @@ Fonts(0x006C, 9)
 	#incbin "../FontData/FontItem沙.fefont"
 
 ALIGN 4
+Fonts(0x0082, 9)
+	#incbin "../FontData/FontItem芙.fefont"
+
+ALIGN 4
 Fonts(0x0084, 9)
 	#incbin "../FontData/FontItem蒙.fefont"
 

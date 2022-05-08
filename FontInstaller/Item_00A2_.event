@@ -8,7 +8,7 @@ Fonts(0x005B, 9)
 	#incbin "../FontData/FontItem客.fefont"
 
 ALIGN 4
-Fonts(0x0062, 11)
+Fonts(0x0062, 9)
 	#incbin "../FontData/FontItem抢.fefont"
 
 ALIGN 4

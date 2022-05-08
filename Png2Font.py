@@ -4,7 +4,7 @@ from numpy import *
 from PIL import Image
 
 
-# python Png2Font.py FontItem琳.png
+# python Png2Font.py FontText芙.png
 
 def GetImgArray(file):
 	# in: png file
@@ -41,6 +41,19 @@ def Png2Font(file):
 	if np.uint8 != type(png_arr[0,0]):
 		print("! break: " + file_name)
 		return
+	
+	# if text file, then get line++
+	glyph_file_name = os.path.basename(file)
+	glyth_type = glyph_file_name[4:8]
+	
+	if glyth_type == "Text":
+		for i in range(0xE, 0x0, -1):
+			for j in range(0x10):
+				png_arr[i+1,j] = png_arr[i,j]
+		
+		for i in range(0x10):
+			png_arr[0,i] = 0
+		
 	
 	# make font
 	font_arr = np.empty(0x40, dtype = uint8) 
