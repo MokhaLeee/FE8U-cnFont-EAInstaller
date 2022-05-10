@@ -154,8 +154,14 @@ def AppendFontInstaller(glyph_file, installer_dir):
 			fp.write("// Sub Font Installer\n")
 	
 	with codecs.open(installer_file, 'a', encoding='utf-8') as fp:
+		
+		glyph_len = GetGlyphLen(glyth_img)
+		
+		if "Text" == glyth_type:
+			glyph_len = glyph_len + 1
+		
 		fp.write("ALIGN 4\n")
-		fp.write("Fonts(0x" + "{:04X}".format(0xFF & (glyth_name_uni>>8)) + ", " + str(GetGlyphLen(glyth_img)) + ")\n")
+		fp.write("Fonts(0x" + "{:04X}".format(0xFF & (glyth_name_uni>>8)) + ", " + str(glyph_len) + ")\n")
 		fp.write("\t#incbin \"../FontData/" + name_wo_ext + ".fefont\"\n")
 		fp.write("\n")
 		
