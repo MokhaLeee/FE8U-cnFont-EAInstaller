@@ -36,7 +36,7 @@ Fonts(0x0067, 9)
 	#incbin "../FontData/FontItem未.fefont"
 
 ALIGN 4
-Fonts(0x006A, 11)
+Fonts(0x006A, 9)
 	#incbin "../FontData/FontItem横.fefont"
 
 ALIGN 4
