@@ -36,6 +36,6 @@ Fonts(0x008B, 9)
 	#incbin "../FontData/FontItem认.fefont"
 
 ALIGN 4
-Fonts(0x0098, 11)
+Fonts(0x0098, 10)
 	#incbin "../FontData/FontItem颤.fefont"
 

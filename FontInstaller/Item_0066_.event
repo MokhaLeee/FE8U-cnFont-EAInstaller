@@ -20,7 +20,7 @@ Fonts(0x006B, 9)
 	#incbin "../FontData/FontItem武.fefont"
 
 ALIGN 4
-Fonts(0x008B, 11)
+Fonts(0x008B, 9)
 	#incbin "../FontData/FontItem警.fefont"
 
 ALIGN 4
