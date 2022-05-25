@@ -24,7 +24,7 @@ Fonts(0x006B, 8)
 	#incbin "../FontData/FontItem比.fefont"
 
 ALIGN 4
-Fonts(0x0076, 11)
+Fonts(0x0076, 9)
 	#incbin "../FontData/FontItem盔.fefont"
 
 ALIGN 4
