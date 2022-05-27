@@ -16,6 +16,10 @@ Fonts(0x006C, 9)
 	#incbin "../FontData/FontItem波.fefont"
 
 ALIGN 4
+Fonts(0x0077, 9)
+	#incbin "../FontData/FontItem矢.fefont"
+
+ALIGN 4
 Fonts(0x008B, 11)
 	#incbin "../FontData/FontItem询.fefont"
 
