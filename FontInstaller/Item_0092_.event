@@ -12,7 +12,7 @@ Fonts(0x0054, 11)
 	#incbin "../FontData/FontItem咒.fefont"
 
 ALIGN 4
-Fonts(0x0057, 11)
+Fonts(0x0057, 9)
 	#incbin "../FontData/FontItem垒.fefont"
 
 ALIGN 4
