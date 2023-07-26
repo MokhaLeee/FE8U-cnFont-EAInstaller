@@ -75,3 +75,6 @@ Temporary Items
 
 # c staff
 *.o
+
+EventAssembler/
+.vscode/
